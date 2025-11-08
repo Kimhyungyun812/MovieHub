@@ -1,0 +1,84 @@
+/* [project]/src/app/modal/personal/modal.css [app-client] (css) */
+.overlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .7);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBox {
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  width: 650px;
+  max-height: 80vh;
+  padding: 30px 40px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+}
+
+.modalBox h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modalBox button {
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 8px 16px;
+}
+
+.modalBox button:hover {
+  background-color: #555;
+}
+
+.modalContent {
+  color: #333;
+  white-space: normal;
+  word-break: break-word;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+  max-height: 400px;
+  padding: 20px;
+  font-size: .95rem;
+  line-height: 1.6;
+  overflow-y: auto;
+}
+
+.modalContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+.modalContent::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=src_app_modal_personal_modal_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,335 @@
+/* [project]/src/app/modal/personal/modal.css [app-client] (css) */
+.overlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .7);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBox {
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  width: 650px;
+  max-height: 80vh;
+  padding: 30px 40px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+}
+
+.modalBox h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modalBox button {
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 8px 16px;
+}
+
+.modalBox button:hover {
+  background-color: #555;
+}
+
+.modalContent {
+  color: #333;
+  white-space: normal;
+  word-break: break-word;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+  max-height: 400px;
+  padding: 20px;
+  font-size: .95rem;
+  line-height: 1.6;
+  overflow-y: auto;
+}
+
+.modalContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+.modalContent::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* [project]/src/app/modal/use/modal.css [app-client] (css) */
+.overlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, .7);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalBox {
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  width: 650px;
+  max-height: 80vh;
+  padding: 30px 40px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+}
+
+.modalBox h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modalBox button {
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 8px 16px;
+}
+
+.modalBox button:hover {
+  background-color: #555;
+}
+
+.modalContent {
+  color: #333;
+  white-space: normal;
+  word-break: break-word;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+  max-height: 400px;
+  padding: 20px;
+  font-size: .95rem;
+  line-height: 1.6;
+  overflow-y: auto;
+}
+
+.modalContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+.modalContent::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* [project]/src/component/Footer.module.css [app-client] (css) */
+.Footer-module__hkpnzq__footer {
+  color: #e0e0e0;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+}
+
+.Footer-module__hkpnzq__footerContent {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 40px;
+  display: grid;
+}
+
+.Footer-module__hkpnzq__footerBrand {
+  grid-column: 1;
+}
+
+.Footer-module__hkpnzq__footerTitle {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Footer-module__hkpnzq__footerDescription {
+  color: #b0b0b0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.Footer-module__hkpnzq__footerLinks {
+  grid-column: 2;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.Footer-module__hkpnzq__footerColumn a {
+  color: #b0b0b0;
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color .3s;
+  display: inline-block;
+}
+
+.Footer-module__hkpnzq__footerSubtitle {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: .5px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Footer-module__hkpnzq__footerColumn ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Footer-module__hkpnzq__footerColumn li {
+  margin-bottom: 10px;
+}
+
+.Footer-module__hkpnzq__footerColumn a {
+  color: #b0b0b0;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Footer-module__hkpnzq__footerColumn a:hover {
+  color: #fff;
+}
+
+.Footer-module__hkpnzq__footerApi {
+  flex-direction: column;
+  grid-column: 3;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.Footer-module__hkpnzq__footerCredit {
+  color: #b0b0b0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.Footer-module__hkpnzq__footerCredit a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Footer-module__hkpnzq__footerCredit a:hover {
+  color: #ff6b6b;
+}
+
+.Footer-module__hkpnzq__footerBottom {
+  text-align: center;
+  background-color: #0f0f0f;
+  border-top: 1px solid #333;
+  padding: 20px;
+}
+
+.Footer-module__hkpnzq__footerCopyright {
+  color: gray;
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .Footer-module__hkpnzq__footerContent {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 20px 30px;
+  }
+
+  .Footer-module__hkpnzq__footerBrand {
+    grid-column: auto;
+  }
+
+  .Footer-module__hkpnzq__footerLinks {
+    grid-column: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .Footer-module__hkpnzq__footerApi {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Footer-module__hkpnzq__footerContent {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 15px 20px;
+  }
+
+  .Footer-module__hkpnzq__footerLinks {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .Footer-module__hkpnzq__footerTitle {
+    font-size: 20px;
+  }
+
+  .Footer-module__hkpnzq__footerSubtitle {
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .Footer-module__hkpnzq__footerCopyright {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=src_56acace1._.css.map*/

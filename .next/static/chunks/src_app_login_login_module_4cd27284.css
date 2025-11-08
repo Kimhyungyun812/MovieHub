@@ -1,0 +1,263 @@
+/* [project]/src/app/login/login.module.css [app-client] (css) */
+.login-module__WEZH7G__authContainer {
+  background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MjJfMjgg%2FMDAxNzQ1MjQ5NTI0OTEx.oxs6IPzSZoyp7y7_JFJ5FCt0hL31OxVPhgnO5D5WaVgg.RYofXxz-Z_iMf_55kkWkfTmzvfHPUTgXJRAhUwR4e1sg.JPEG%2FKakaoTalk_20250422_002127317_08.jpg&type=sc960_832") center / cover no-repeat;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+  display: flex;
+}
+
+.login-module__WEZH7G__authCard {
+  background: #000;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
+  animation: .4s ease-out login-module__WEZH7G__slideUp;
+  box-shadow: 0 10px 40px rgba(255, 255, 255, .2);
+}
+
+@keyframes login-module__WEZH7G__slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-module__WEZH7G__authHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-module__WEZH7G__authTitle {
+  color: #fff;
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.login-module__WEZH7G__authSubtitle {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+}
+
+.login-module__WEZH7G__authForm {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.login-module__WEZH7G__formGroup {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.login-module__WEZH7G__label {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-module__WEZH7G__input {
+  background-color: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-family: inherit;
+  font-size: 14px;
+  transition: all .2s;
+}
+
+.login-module__WEZH7G__input:focus {
+  background-color: #fff;
+  border-color: #667eea;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, .1);
+}
+
+.login-module__WEZH7G__inputError {
+  background-color: #fff5f5;
+  border-color: #fc8181;
+}
+
+.login-module__WEZH7G__inputError:focus {
+  border-color: #fc8181;
+  box-shadow: 0 0 0 3px rgba(252, 129, 129, .1);
+}
+
+.login-module__WEZH7G__errorText {
+  color: #e53e3e;
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.login-module__WEZH7G__message {
+  text-align: center;
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  animation: .3s ease-out login-module__WEZH7G__slideDown;
+}
+
+@keyframes login-module__WEZH7G__slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-module__WEZH7G__messageSuccess {
+  color: #22543d;
+  background-color: #c6f6d5;
+  border: 1px solid #9ae6b4;
+}
+
+.login-module__WEZH7G__messageError {
+  color: #742a2a;
+  background-color: #fed7d7;
+  border: 1px solid #fc8181;
+}
+
+.login-module__WEZH7G__submitButton {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, red 0%, red 100%);
+  border: none;
+  border-radius: 6px;
+  margin-top: 8px;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.login-module__WEZH7G__submitButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, .4);
+}
+
+.login-module__WEZH7G__submitButton:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.login-module__WEZH7G__submitButton:disabled {
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+.login-module__WEZH7G__buttonLoading {
+  pointer-events: none;
+  opacity: .8;
+}
+
+.login-module__WEZH7G__demoLoginSection {
+  background-color: #f7fafc;
+  border-left: 3px solid #667eea;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 12px 14px;
+}
+
+.login-module__WEZH7G__demoText {
+  color: #2d3748;
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.login-module__WEZH7G__demoCredentials {
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+}
+
+.login-module__WEZH7G__demoCredentials span {
+  color: #4a5568;
+  font-family: Courier New, monospace;
+  font-size: 12px;
+}
+
+.login-module__WEZH7G__toggleSection {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-module__WEZH7G__toggleText {
+  color: #fff;
+  margin: 0;
+  font-size: 13px;
+}
+
+.login-module__WEZH7G__toggleButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.login-module__WEZH7G__toggleButton:hover {
+  color: #ff0015;
+  text-decoration: underline;
+}
+
+.login-module__WEZH7G__divider {
+  background-color: #fff;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.login-module__WEZH7G__backButton {
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s;
+  display: block;
+}
+
+.login-module__WEZH7G__backButton:hover {
+  color: #030000;
+  background-color: #f7fafc;
+}
+
+@media (max-width: 480px) {
+  .login-module__WEZH7G__authCard {
+    padding: 24px;
+  }
+
+  .login-module__WEZH7G__authTitle {
+    font-size: 24px;
+  }
+
+  .login-module__WEZH7G__formGroup {
+    gap: 6px;
+  }
+
+  .login-module__WEZH7G__input, .login-module__WEZH7G__submitButton {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=src_app_login_login_module_4cd27284.css.map*/
