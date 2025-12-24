@@ -56,14 +56,15 @@ Next.js(App Router) 기반으로
 
 ## 🏗️ 프로젝트 구조
 
+```bash
 app/
-├─ page.tsx # 메인 페이지
+├─ page.tsx              # 메인 페이지
 ├─ movie/
-│ └─ [id]/page.tsx # 영화 상세 페이지 (Dynamic Route)
-├─ components/ # 공통 UI 컴포넌트
-├─ services/ # API 호출 로직
-└─ styles/ # 스타일 파일
-
+│  └─ [id]/page.tsx      # 영화 상세 페이지 (Dynamic Route)
+├─ components/           # 공통 UI 컴포넌트
+├─ services/             # API 호출 로직
+└─ styles/               # 스타일 파일
+```
 - 기능별 폴더 분리를 통해 가독성과 유지보수성 확보
 - API 호출 로직을 서비스 레이어로 분리하여 관리
 
