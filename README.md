@@ -29,9 +29,7 @@ Next.js(App Router) 기반으로
 
 ## 🧑‍💻 담당 역할 (Frontend)
 
-- 메인 페이지 UI 구현
 - 영화 검색 기능 개발
-- 영화 상세 페이지 구현 (Dynamic Route)
 - 외부 영화 API 연동
 - 공지 사항, 정책 안내 페이지 구현
 - Next.js App Router 구조 설계 일부 참여
